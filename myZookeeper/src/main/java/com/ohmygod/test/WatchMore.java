@@ -28,6 +28,8 @@ public class WatchMore {
 
     private static final String PATH = "/ohmygod";
     private static final String CONNECTSTRING = "192.168.211.128:2181";
+    //若为zookeeper集群：
+    //private static final String CONNECTSTRING = "192.168.211.128:2191,192.168.211.128:2192,192.168.211.128:2193";
     private static final int SESSION_TIMEOUT = 20*1000;
 
     public ZooKeeper getZk() {
